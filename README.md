@@ -19,7 +19,7 @@ The repository is currently compatible with `tensorflow-2.0` and makes use of th
 
 * If you want to train this model or train after making changes to the model, use `python emotions.py --mode train`.
 
-* If you want to view the predictions without training again, you can download my pre-trained model `(model.h5)` from [here](https://drive.google.com/file/d/1FUn0XNOzf-nQV7QjbBPA6-8GLoHNNgv-/view?usp=sharing) and then run `python emotions.py --mode display`.
+* If you want to view the predictions without training again, you can download my pre-trained model `(model.h5)` from [here](https://cvrac-my.sharepoint.com/:u:/g/personal/msiddhartha_students_cvr_ac_in/EQRQHy3Eh6NCuhN4UMSx3_UBHqiLC88jbHAhDSCKWj-uBQ?e=gBZgQB) and then run `python emotions.py --mode display`.
 
 * The folder structure is of the form:  
   Tensorflow:
