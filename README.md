@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project aims to classify the emotion on a person's face into one of **seven categories**, using deep convolutional neural networks. This repository is an implementation of [this](https://github.com/msiddhu/Emotion-detection/blob/master/ResearchPaper.pdf) research paper. The model is trained on the **FER-2013** dataset which was published on International Conference on Machine Learning (ICML). This dataset consists of 35887 grayscale, 48x48 sized face images with **seven emotions** - angry, disgusted, fearful, happy, neutral, sad and surprised.
+This project aims to classify the emotion on a person's face into one of **seven categories**, using deep convolutional neural networks. This repository is an implementation of [this](https://github.com/msiddhu/Emotion-detection/blob/master/ResearchPaper.pdf) research paper. The model is trained on the **FER-2013** dataset which was published on International Conference on Machine Learning (ICML). Face images with **seven emotions** - angry, disgusted, fearful, happy, neutral, sad and surprised.
 
 ## Dependencies
 
@@ -19,7 +19,7 @@ The repository is currently compatible with `tensorflow-2.0` and makes use of th
 
 * If you want to train this model or train after making changes to the model, use `python emotions.py --mode train`.
 
-* If you want to view the predictions without training again, you can download my pre-trained model `(model.h5)` from [here](https://cvrac-my.sharepoint.com/:u:/g/personal/msiddhartha_students_cvr_ac_in/EQRQHy3Eh6NCuhN4UMSx3_UBHqiLC88jbHAhDSCKWj-uBQ?e=gBZgQB) and then run `python emotions.py --mode display`.
+* pretrained model link-
 
 * The folder structure is of the form:  
   Tensorflow:
@@ -38,7 +38,7 @@ The repository is currently compatible with `tensorflow-2.0` and makes use of th
 
 * First, we use **haar cascade** to detect faces in each frame of the webcam feed.
 
-* The region of image containing the face is resized to **48x48** and is passed as input to the ConvNet.
+* The region of image containing the face is resized to **48x48** and is passed as input to the CNN.
 
 * The network outputs a list of **softmax scores** for the seven classes.
 
