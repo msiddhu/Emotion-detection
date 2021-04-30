@@ -13,12 +13,6 @@ This project aims to classify the emotion on a person's face into one of **seven
 
 The repository is currently compatible with `tensorflow-2.0` and makes use of the Keras API using the `tensorflow.keras` library.
 
-* First, clone the repository with `git clone https://github.com/msiddhu/Emotion-detection.git` and enter the cloned folder: `cd Emotion-detection`.
-
-* Download the FER-2013 dataset from [here](https://anonfile.com/bdj3tfoeba/data_zip) and unzip it inside the `Tensorflow` folder. This will create the folder `data`.
-
-* If you want to train this model or train after making changes to the model, use `python emotions.py --mode train`.
-
 * pretrained model link-
 
 * The folder structure is of the form:  
